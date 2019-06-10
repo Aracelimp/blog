@@ -1,1 +1,13 @@
 theme: jekyll-theme-minimal
+collections:
+  authors:
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
